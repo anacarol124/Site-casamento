@@ -386,6 +386,8 @@ input[type=number]::-webkit-inner-spin-button {
   position: relative;
   padding: 16px;
   background: #FFFFFF;
+    width: 250px;         /* largura fixa (ajuste conforme seu layout) */
+  height: 350px;        /* altura fixa para padronizar */
   border-radius: 16px;
   margin-bottom: 30px;
   box-shadow: 0px 0px 22px rgba(0, 0, 0, 0);
@@ -408,7 +410,7 @@ input[type=number]::-webkit-inner-spin-button {
 }
 .product-item figure img {
   max-height: 210px;
-  height: auto;
+  height: 180px; 
 }
 .product-item .product-qty {
   width: 85px;
@@ -703,4 +705,18 @@ a.btn-link.text-light:after {
     border-radius: 5px;        /* Opcional: bordas arredondadas */
     margin-top: 10px;
   
+}
+.product-item .tab-image{
+  max-width: 100%;
+  max-height: 100%;
+  object-fit: contain;
+}
+
+.tab-image{
+    display: flex;
+  justify-content: center; /* Centraliza horizontalmente */
+  align-items: center;     /* Centraliza verticalmente */
+  height: 250px;           /* Altura da box */
+  width: 100%;             /* Largura da box */
+  overflow: hidden;  
 }
