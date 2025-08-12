@@ -492,6 +492,23 @@ input[type=number]::-webkit-inner-spin-button {
   }
 }
 
+@media (max-width: 768px) {
+  .product-item {
+    width: 100%;           /* Faz ocupar toda a largura */
+    max-width: 350px;      /* Limita para não ficar gigante */
+    margin: 0 auto 20px;   /* Centraliza e dá espaço entre os cards */
+  }
+    .product-item {
+    width: 100%;           /* Faz ocupar toda a largura */
+    max-width: 350px;      /* Limita para não ficar gigante */
+    margin: 0 auto 20px;   /* Centraliza e dá espaço entre os cards */
+  }
+  .robo{
+    padding-top: 35px !important;
+  }
+
+}
+
 /* single product */
 /* product-thumbnail-slider */
 .product-thumbnail-slider {
